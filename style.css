@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  user-select: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+body nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background: #191353;
+  transition: all 0.5s;
+}
+body nav .logo {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  line-height: 80px;
+  padding-left: 100px;
+}
+body nav ul {
+  float: right;
+  margin-right: 50px;
+}
+body nav ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+body nav ul li a {
+  color: #bbb8b8;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+body nav ul li a:hover {
+  color: violet;
+}
+body .sec1 {
+  background: url("./bg.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body .sec2 {
+  background: url("./girl.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+body h1 {
+  font-size: 40px;
+  padding: 20px 0 10px 20px;
+}
+body p {
+  font-size: 20px;
+  padding: 0 20px;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

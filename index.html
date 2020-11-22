@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide Navbar On Scroll</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav>
+        <label class="logo">DesignK</label>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+    <section class="sec1"></section>
+    <h1>About Section</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ut blanditiis esse voluptas nostrum molestiae
+        consequuntur quaerat corporis, deleniti adipisci, perferendis voluptatum neque facilis architecto! Architecto
+        exercitationem error obcaecati facere autem deserunt, laborum repellendus quae dolorem et cumque, voluptatem
+        cupiditate quos, consectetur vitae sequi vero? Eos assumenda sed molestias sapiente ullam sit magni dolorem quae
+        qui, maiores adipisci architecto excepturi voluptatibus ex fugit repudiandae. Excepturi laborum, nihil ea non
+        pariatur fugiat maiores beatae, quos quod soluta accusamus adipisci, inventore optio? Doloribus fuga
+        dignissimos, voluptatum alias numquam ipsam sunt quos, expedita tenetur odit nihil aliquam minus ea rerum
+        cupiditate et facere vitae eos quo eligendi nisi illo doloremque corrupti! Sit, veniam. Ad ipsam corrupti, dolor
+        obcaecati repudiandae delectus, rerum dolorem saepe architecto quas, ipsa incidunt nobis fuga doloremque
+        exercitationem. Excepturi, eius architecto! Ea distinctio eaque sint minima mollitia amet, voluptates eum, minus
+        neque hic ullam! Voluptas quae dignissimos maiores excepturi impedit, maxime voluptatem molestias quasi cumque
+        aut non exercitationem dolor officia natus reprehenderit, iusto eligendi aliquid ipsa, illo eveniet sint.
+        Repudiandae vero consectetur dolore dolorem officiis laudantium labore ut sit hic voluptate temporibus dolorum
+        incidunt dicta, a deserunt illo porro ab quis. Est expedita quae nihil quidem totam quisquam optio nemo possimus
+        porro delectus harum dolorem perferendis, rem eveniet impedit sunt, incidunt at. Tempore vitae quis, aut ipsum
+        tempora molestias sed nam, quia dolorem praesentium blanditiis et. Aspernatur, odit. Veritatis, quibusdam
+        aperiam quae corporis ad expedita! Sed, quia, assumenda deleniti doloremque et natus quod laboriosam maiores,
+        nostrum nam similique. Dolor, similique ad sunt error quis molestiae voluptatibus earum facilis officia cum
+        dolore omnis ipsam libero quod minima veritatis sit adipisci optio quisquam rem explicabo possimus illum.
+        Officia facilis blanditiis cumque optio sit molestias incidunt aspernatur temporibus! Quisquam ipsum nemo
+        accusamus aut molestiae impedit aspernatur facilis ducimus rem, velit, animi nihil corrupti.</p>
+    <section class="sec2"></section>
+    <h1>Services Section</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maiores sint delectus quaerat consectetur esse,
+        veritatis laudantium? Unde inventore, dolorem quaerat quis eaque enim placeat quo eos vero aperiam. Hic, rem
+        aut. Vero expedita vel tempore voluptas laboriosam facere. Obcaecati harum molestiae autem ullam cum odio enim
+        quas, doloribus eius asperiores labore blanditiis repudiandae dolorum eveniet impedit eligendi aspernatur quis
+        ut velit excepturi. Eum alias voluptatibus maiores, natus facere hic modi animi error itaque ut neque eveniet
+        adipisci, impedit ex enim voluptate! Aut saepe, debitis quis aspernatur ipsum expedita impedit corrupti a,
+        repudiandae magnam ea maxime. Asperiores itaque quis minima animi aliquam quas incidunt possimus dolorum dolore
+        ullam cupiditate accusamus quidem, porro harum dolorem assumenda laborum distinctio natus sapiente. Corrupti,
+        ut, sit totam quibusdam laudantium explicabo, illo ex voluptas repudiandae nostrum commodi vel accusantium
+        inventore? Consequatur animi perspiciatis praesentium possimus, at amet eos ducimus maxime debitis in inventore,
+        sint reprehenderit. Perspiciatis obcaecati dolores quod amet. Vel, necessitatibus magnam. Laudantium, laborum.
+        Repellat nisi provident tempora corporis vitae natus, maxime in placeat inventore tempore voluptas debitis illum
+        iure dignissimos non obcaecati voluptatibus veniam. Illo omnis fugit, sunt est ipsa distinctio quisquam dolore
+        iure ut vero, vel eos debitis sit, aliquid corrupti tenetur repellat? Dolore commodi minus assumenda voluptate
+        voluptatibus rem quae ut, et dolor cupiditate pariatur repellat, mollitia iusto id explicabo nobis consequatur
+        beatae, aliquid est? Veniam fugit quibusdam libero porro illum, et necessitatibus tempora? Cupiditate eligendi
+        mollitia odit ullam, nulla voluptates, quasi quisquam facere quos labore id et repellendus neque praesentium
+        minus voluptate earum nostrum iure adipisci. Atque eaque odio aperiam corrupti nihil? Fugiat itaque doloremque
+        accusantium minus quos aspernatur nostrum sunt assumenda, saepe cupiditate commodi esse dolore ducimus voluptate
+        amet quidem voluptatum ab aut dolor corporis sapiente, cumque nihil vero! Obcaecati amet dolorum veritatis quos
+        nesciunt quaerat tenetur asperiores dolorem!</p>
+
+    <script>
+        var scroll1 = window.pageYOffset;
+        window.onscroll = function () {
+            var scroll2 = window.pageYOffset;
+            if (scroll1 > scroll2) {
+                document.querySelector('nav').style.top = '0';
+            } else {
+                document.querySelector('nav').style.top = '-100px';
+            }
+            scroll1 = scroll2;
+        }
+    </script>
+</body>
+
+</html>
